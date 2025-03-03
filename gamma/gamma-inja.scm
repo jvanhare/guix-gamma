@@ -4,6 +4,7 @@
   #:use-module (gnu packages)
   #:use-module (guix build-system copy)
   #:use-module (guix git-download)
+  #:use-module (gamma gamma-nlohmann-json)
   #:use-module (gnu packages cpp))
 
 (define-public gamma-inja
