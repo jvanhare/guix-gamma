@@ -4,7 +4,7 @@
   #:use-module (gnu packages)
   #:use-module (guix build-system copy)
   #:use-module (guix git-download)
-  #:use-module (gamma gamma-nlohmann-json)
+  #:use-module (gamma-nlohmann-json)
   #:use-module (gnu packages cpp))
 
 (define-public gamma-inja
@@ -27,3 +27,5 @@
     (synopsis "A Template Engine for Modern C++")
     (description "Inja is a template engine for modern C++, loosely inspired by jinja for python. It has an easy and yet powerful template syntax with all variables, loops, conditions, includes, callbacks, and comments you need, nested and combined as you like.")
     (license license:expat)))
+
+gamma-inja

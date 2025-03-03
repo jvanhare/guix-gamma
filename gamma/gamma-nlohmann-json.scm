@@ -19,3 +19,5 @@
     (synopsis "JSON parser and printer library for C++")
     (description "@code{nlohmann::json} is a C++ JSON library that provides intuitive syntax and trivial integration.")
     (license license:expat)))
+
+gamma-nlohmann-json
