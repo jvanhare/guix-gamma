@@ -2,6 +2,8 @@
   #:use-module (guix)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (gnu packages)
+  #:use-module (guix download)
+  #:use-module (guix git-download)
   #:use-module (guix build-system copy))
 
 (define-public gamma-nlohmann-json

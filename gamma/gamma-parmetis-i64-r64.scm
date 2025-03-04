@@ -3,6 +3,7 @@
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (gnu packages)
   #:use-module (guix build-system cmake)
+  #:use-module (guix download)
   #:use-module (guix git-download)
   #:use-module (gnu packages mpi)
   #:use-module (gnu packages commencement))

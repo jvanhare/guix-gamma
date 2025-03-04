@@ -3,6 +3,7 @@
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (gnu packages)
   #:use-module (guix build-system copy)
+  #:use-module (guix download)
   #:use-module (guix git-download)
   #:use-module (gamma-nlohmann-json)
   #:use-module (gnu packages cpp))
