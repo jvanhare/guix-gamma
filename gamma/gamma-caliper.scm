@@ -62,7 +62,7 @@ Testing large-scale high performance computing (HPC) application.")
               (file-name (git-file-name name version))
               (sha256
                (base32
-                "1n0bzibjf1l9pgc5gff5cjsdpgbrnd1wz01ib1jkd672l3zh7w7g"))))
+                "0y3w8rihqbm12mr4vy77ri9xcxl378f1vpgn9aabvxyd5krmi50c"))))
     (build-system cmake-build-system)
     (inputs (list openmpi gamma-blt))
     (arguments
