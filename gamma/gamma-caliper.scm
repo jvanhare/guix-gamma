@@ -54,7 +54,7 @@ Testing large-scale high performance computing (HPC) application.")
 (define-public gamma-adiak
   (package
     (name "gamma-adiak")
-    (version "0.2.2")
+    (version "0.4.1")
     (source (origin
               (method git-fetch)
               (uri (git-reference (url "https://github.com/LLNL/adiak")
