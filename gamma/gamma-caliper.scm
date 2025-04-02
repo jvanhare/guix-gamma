@@ -89,7 +89,7 @@ system")
 (define-public gamma-caliper
   (package
     (name "gamma-caliper")
-    (version "2.8.0")
+    (version "2.12.1")
     (source (origin
               (method git-fetch)
               (uri (git-reference (url "https://github.com/LLNL/Caliper")
