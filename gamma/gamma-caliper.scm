@@ -97,7 +97,7 @@ system")
               (file-name (git-file-name name version))
               (sha256
                (base32
-                "1nbiy1zn6kh9hyjjk2xp2ff7i1ag9nn0ib790mc3lgkpr40zra1q"))))
+                "0kmzx5sk20kmrs7qq2bpfcbms6m6hyzqa98g9i7nmhh2fzf66nfa"))))
     (build-system cmake-build-system)
     (inputs (list openmpi gamma-blt gamma-adiak papi python))
     (arguments
